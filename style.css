@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #50b3a2;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course-card {
+    background: #e2e2e2;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-section {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #50b3a2;
+}
+
+.btn {
+    display: inline-block;
+    background: #50b3a2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3e8377;
+}
